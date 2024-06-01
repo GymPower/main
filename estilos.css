@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 20px;
+}
+ejercicios {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color:black;
+}
+grupo {
+    display: block;
+    background-color:black;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+ejercicio {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: hsl(94,91%,57%);
+    margin-bottom: 10px;
+}
+instrucciones {
+    text-decoration:none;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+paso {
+    display: block;
+    margin: 5px 0;
+    text-decoration:none;
+}

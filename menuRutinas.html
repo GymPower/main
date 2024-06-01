@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" href="images/icon.jpg">
+    <title>PersonalTrainer</title>
+</head>
+<body>
+    <main>
+        <!-- Navbar -->
+        <div class="w3-top w3-text-white w3-black">
+            <div class="w3-bar  ">
+              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="index.html" class="w3-bar-item w3-button w3-padding-large">INICIO</a>
+              <a href="yo.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE MÍ</a>
+              <a href="menuRutinas.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RUTINAS</a>
+              <a href="dietas.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DIETAS</a>
+              <a href="ejercicios.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EJERCICIOS</a>
+            </div>
+          </div>
+  
+          <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+          <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+            <a href="yo.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE MÍ</a>
+            <a href="menuRutinas.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RUTINAS</a>
+            <a href="dietas.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DIETAS</a>
+            <a href="ejercicios.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EJERCICIOS</a>
+          </div>
+      </div>
+      <div class="service" id="rutinas">
+         <h2 class="title"> RUTINAS</h2>
+         <div class="testimony-text">
+         <p>Haremos una rutina básica, primer día de pecho, segundo día espalda y por último piernas.</p> 
+         <p>¿Cuantos días a la semana?</p>
+         <p>Yo recomiendo que si tienes 6 días, hagas PPL por ejemplo lunes, martes y miércoles; jueves descanso y volvemos a hacer PPL viernes, sábado y domingo.</p>
+        </div>
+         <div class="card">
+           <div class="card-list">
+              <div class="card-image">
+                <img src="images/push.jpg" alt="Rutina Push"/>
+              </div>
+              <div class="card-text"> 
+                <h4>Push</h4>
+                <p>Pecho, hombro y triceps</p>
+                <a href="push.html">
+                  <button class="w3-btn w3-red w3-margin-top w3-round" style="width:100%">Push</button>
+                </a>
+
+              </div>
+           </div>
+           <div class="card-list">
+            <div class="card-image">
+              <img src="images/pull.jpg" alt="Rutina pull"/>
+            </div>
+            <div class="card-text"> 
+              <h4>Pull</h4>
+              <p>Espalda y biceps</p>
+              <a href="pull.html">
+                <button class="w3-btn w3-red w3-margin-top w3-round" style="width:100%">Pull</button>
+              </a>
+            </div>
+
+           </div>
+           <div class="card-list"><div class="card-image">
+            <img src="images/leg.jpg" alt="Rutina legs"
+            />
+          </div>
+          <div class="card-text"> 
+            <h4>Legs</h4>
+            <p>Pierna completa</p>
+            <a href="leg.html">
+              <button class="w3-btn w3-red w3-margin-top w3-round" style="width:100%">Legs</button>
+            </a>
+
+          </div>
+
+           </div>
+         </div>
+      </div>
+
+    
+    </main>
+    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+</body>
+</html>

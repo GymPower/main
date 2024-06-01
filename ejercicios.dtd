@@ -1,0 +1,6 @@
+<!ELEMENT ejercicios (grupo+)>
+<!ELEMENT grupo (nombre, ejercicio+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ejercicio (nombre, instrucciones)>
+<!ELEMENT instrucciones (paso+)>
+<!ELEMENT paso (#PCDATA)>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" href="images/icon.jpg">
+    <title>PersonalTrainer</title>
+</head>
+<body>
+    <div>
+        <!-- Navbar -->
+        <div class="w3-top w3-text-white w3-black">
+            <div class="w3-bar  ">
+              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="#inicio" class="w3-bar-item w3-button w3-padding-large">INICIO</a>
+              <a href="nosotros.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE NOSOTROS</a>
+              <a href="menuRutinas.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RUTINAS</a>
+              <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DIETAS</a>
+              <a href="ejercicios.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EJERCICIOS</a>
+            </div>
+          </div>
+  
+          <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+          <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+            <a href="nosotros.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE NOSOTROS</a>
+            <a href="menuRutinas.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RUTINAS</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DIETAS</a>
+            <a href="ejercicios.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EJERCICIOS</a>
+          </div>
+    </div>
+    
+    <main>
+        
+      <br>
+      <br>
+        <table class="tabla">
+          <thead>
+          <tr>
+          <td colspan="5" text-align: center;>ENTRENAMIENTO LEG: MIÉRCOLES Y SÁBADO (ENTRENAMIENTO DE TREN INFERIOR)</td>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+          <th><b>Grupo muscular</b></th>
+          <th><b>Ejercicios</b></th>
+          <th><b>Series </b></th>
+          <th><b>Repeticiones</b></th>
+          <th><b>Descanso</b></th>
+          </tr>
+          <tr>
+          <td><strong>Cuadriceps</strong></td>
+          <td><a href="images/sentadilla.webp" target="_blank">Sentadilla con barra</a></td>
+          <td>4</td>
+          <td>6-7*</td>
+          <td>2-3 min</td>
+          </tr>
+          <tr>
+          <td><strong> </strong></td>
+          <td><a href="images/estocada.webp" target="_blank">Caminata en estocada</a></td>
+          <td>2</td>
+          <td>Al fallo</td>
+          <td>2-3 min</td>
+          </tr>
+          <td><strong>Cuadriceps</strong></td>
+          <td><a href="images/pesoMuerto.webp" target="_blank">Peso muerto</a></td>
+          <td>4</td>
+          <td>6-7*</td>
+          <td>2-3 min</td>
+          </tr>
+          <tr>
+          <td><strong> </strong></td>
+          <td><a href="images/bulgara.webp" target="_blank">Sentadilla búlgara</a></td>
+          <td>4</td>
+          <td>6-7*</td>
+          <td>2-3 min</td>
+          </tr>
+          <td><strong>Gemelo</strong></td>
+          <td><a href="images/gemelos.gif" target="_blank">Elevación de talones</a></td>
+          <td>3</td>
+          <td>6-7*</td>
+          <td>2-3 min</td>
+          </tr>          
+          <tr>
+          <td colspan="5" text-align: center;><strong>* La última serie debe realizarse en serie descendente.</strong></td>
+          </tr>
+          </tbody>
+        </table>
+    </main>
+       <script>
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+</body>
+</html>

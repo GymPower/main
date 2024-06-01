@@ -1,0 +1,204 @@
+<?xml  version = "1.0"  encoding = "UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<!DOCTYPE ejercicios SYSTEM "ejercicios.dtd">
+<ejercicios>
+    <grupo>
+        <nombre>Pectoral</nombre>
+        <ejercicio>
+            <nombre>Press inclinado con mancuernas en banco</nombre>
+            <instrucciones>
+                <paso>Acuéstate en un banco inclinado con un agarre firme en las mancuernas, asegurándote de que tus pies estén firmemente plantados en el suelo.</paso>
+                <paso>Baja las mancuernas de manera controlada hasta que tus codos formen un ángulo de 90 grados, manteniendo tus brazos ligeramente abiertos.</paso>
+                <paso>Impulsa las mancuernas hacia arriba de manera explosiva, extendiendo completamente los brazos mientras exhalas.</paso>
+                <paso>Pausa brevemente en la posición final y luego baja las mancuernas lentamente a la posición inicial mientras inhalas. Repite el movimiento para completar el número deseado de repeticiones.</paso>
+            </instrucciones>            
+        </ejercicio>  
+        <ejercicio>
+            <nombre>Press con mancuernas en banco plano</nombre>
+            <instrucciones>
+                <paso>Acuéstate sobre un banco plano con los pies apoyados en el suelo y sosteniendo una mancuerna en cada mano, con los brazos extendidos hacia el techo.</paso>
+                <paso>Baja lentamente las mancuernas hacia los lados de tu pecho, manteniendo los codos pegados al cuerpo.</paso>
+                <paso>Empuja las mancuernas hacia arriba, extendiendo los brazos por completo.</paso>
+                <paso>Repite el movimiento para completar el número deseado de repeticiones.</paso>
+            </instrucciones>
+        </ejercicio> 
+        <ejercicio>
+            <nombre>Press declinado con mancuernas en banco</nombre>
+            <instrucciones>
+                <paso>Acuéstate en un banco declinado con los pies bien apoyados en el suelo y sostén una mancuerna en cada mano, con los brazos extendidos hacia el techo.</paso>
+                <paso>Baja lentamente las mancuernas hacia los lados de tu cuerpo, manteniendo los codos cerca de tu torso.</paso>
+                <paso>Luego, levanta las mancuernas hacia arriba hasta que estén por encima de tu pecho, asegurándote de mantener tus codos ligeramente doblados.</paso>
+                <paso>Finalmente, baja las mancuernas de nuevo hacia los lados de tu cuerpo y repite el movimiento para completar una serie.</paso>
+            </instrucciones>
+        </ejercicio> 
+    </grupo>
+    <grupo>
+        <nombre>Hombro</nombre>
+        <ejercicio>
+            <nombre>Press militar con mancuernas</nombre>
+            <instrucciones>
+                <paso>Para iniciar el press militar, siéntate sosteniendo una barra (o un par de mancuernas) sujeta en pronación, es decir, las palmas deben estar mirando hacia atrás al momento de colocar los brazos de forma perpendicular al cuerpo.</paso>
+                <paso>Ubica las manos sobre la barra de forma tal que no superen la anchura de los hombros, sentado en un banco con la espalda en una posición recta.</paso>     
+                <paso>Lleva la barra con ayuda de las manos hacia la parte alta del pecho, específicamente a la altura de los hombros.</paso>     
+                <paso>Inspira y eleva la barra superiormente, como si se estuviera empujando con nuestras manos y en su proceder se extenderán los brazos.</paso>     
+                <paso>Al final de la acción, espira mientras desciendes hacia la posición inicial del ejercicio, de una forma completamente controlada.</paso>                 
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Remo al mentón</nombre>
+            <instrucciones>
+                <paso>Colócate frente a las mancuernas con los pies separados a la altura de los hombres y sostener los mangos con las palmas mirando hacia tu cuerpo. Sube los brazos hasta que el mango llegue a la altura de tu mentón.</paso>
+                <paso>Los codos deben pasar tu cabeza y ver hacia afuera en todo momento.</paso>
+                <paso>Baja el peso con cuidado para evitar lesiones.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Elevaciones laterales</nombre>
+            <instrucciones>
+                <paso>Ponte de pie con los pies separados al ancho de los hombros y sostén una mancuerna en cada mano a los lados de tu cuerpo con las palmas hacia tus muslos.</paso>
+                <paso>Manteniendo los brazos rectos y los codos ligeramente flexionados, levanta las mancuernas hacia los lados hasta que tus brazos estén paralelos al suelo.</paso>
+                <paso>Mantén una breve pausa en la parte superior del movimiento y luego baja lentamente las mancuernas a la posición inicial.</paso>
+                <paso>Repite el movimiento durante el número deseado de repeticiones, manteniendo el control de las mancuernas y evitando balancear el cuerpo.</paso>
+            </instrucciones>
+        </ejercicio>
+    </grupo>
+    <grupo>
+        <nombre>Tríceps</nombre>
+        <ejercicio>
+            <nombre>Extensión de tríceps acostado con mancuernas</nombre>
+            <instrucciones>
+                <paso>Acuéstate en un banco plano con los pies apoyados en el suelo y agarra una mancuerna con ambas manos en posición vertical sobre tu cabeza.</paso>
+                <paso>Baja la mancuerna lentamente hacia atrás de tu cabeza, manteniendo los codos apuntando hacia el techo.</paso>
+                <paso>Una vez que la mancuerna llegue a la altura de la cabeza, extiende los brazos hacia arriba para volver a la posición inicial.</paso>
+                <paso>Repite este movimiento durante varias repeticiones, asegurándote de mantener los codos fijos durante todo el ejercicio.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Fondos entre bancos</nombre>
+            <instrucciones>
+                <paso>Siéntate en el borde de un banco resistente con las manos apoyadas a los lados del cuerpo, mirando hacia adelante y las piernas estiradas frente a ti.</paso>
+                <paso>Levanta tu cuerpo al empujar hacia arriba con los brazos, manteniendo los codos ligeramente flexionados y los hombros hacia abajo. Mantén una postura erguida y los abdominales contraídos.</paso>
+                <paso>Baja lentamente tu cuerpo al flexionar los codos hasta que tus hombros estén aproximadamente a la altura de los codos. Mantén el control del movimiento y evita que los hombros se levanten hacia las orejas.</paso>
+                <paso>Vuelve a la posición inicial empujando con fuerza hacia arriba hasta que los brazos estén completamente extendidos. Repite el movimiento durante el número deseado de repeticiones.</paso>
+            </instrucciones>
+        </ejercicio>
+    </grupo>
+    <grupo>
+        <nombre>Espalda</nombre>
+        <ejercicio>
+            <nombre>Remo con barra</nombre>
+            <instrucciones>
+                <paso>Colócate frente a una barra cargada en el suelo. Flexiona las rodillas ligeramente, mantén la espalda recta y agarra la barra con un agarre pronado (palmas hacia abajo) al ancho de los hombros.</paso>
+                <paso>Manteniendo la espalda recta, estira las piernas y tira de la barra hacia tu cuerpo, llevando los codos hacia atrás. Asegúrate de mantener los hombros hacia abajo y atrás durante todo el movimiento.</paso>
+                <paso>Mantén una contracción en los músculos de la espalda durante un segundo en la posición de máxima contracción.</paso>
+                <paso>Controladamente, baja la barra hacia el punto inicial, estirando los brazos completamente.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Dominadas</nombre>
+            <instrucciones>
+                <paso>Exhale mientras que levanta su cuerpo hasta el momento en que su barbilla se eleve sobre la barra.</paso>
+                <paso>Mantente ahí un par segundos y aprieta los músculos de la espalda.</paso>
+                <paso>Baje su cuerpo hasta el momento en que sus brazos y hombros estén totalmente estirados mientras inhala.</paso>
+                <paso>Repetir el ejercicio de acuerdo a tu plan de entrenamiento.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Remo con mancuerna con un brazo</nombre>
+            <instrucciones>
+                <paso>Comienza colocando una mancuerna en el suelo y ponte de pie con los pies separados al ancho de los hombros. Inclínate hacia adelante desde las caderas, manteniendo la espalda recta y los abdominales apretados. Puedes apoyar una rodilla sobre un banco plano para otorgarte estabilidad durante el movimiento.</paso>
+                <paso>Con una mano, toma la mancuerna y lleva el brazo hacia arriba hasta que el codo quede justo por encima del torso, manteniendo la mancuerna cerca de tu cuerpo. Exhala mientras levantas la mancuerna y contraes los músculos de la espalda.</paso>
+                <paso>Lentamente baja la mancuerna hacia el suelo mientras inhalas, asegurándote de mantener la espalda recta y los abdominales apretados. Repite el ejercicio con la otra mano.</paso>
+                <paso>Realiza las repeticiones que indique tu plan de entrenamiento, aumentando el peso de las mancuernas según sea necesario para un desafío adicional.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Encogimientos</nombre>
+            <instrucciones>
+                <paso>Ajusta la barra a una altura ligeramente por encima de tus hombros.</paso>
+                <paso>Agarra la barra con un agarre abierto, manteniendo las manos separadas más allá del ancho de tus hombros.</paso>
+                <paso>Levanta los hombros hacia las orejas, manteniendo los brazos rectos y la espalda recta.</paso>
+                <paso>Lentamente baja los hombros de nuevo a la posición inicial y repite el ejercicio según las repeticiones y series recomendadas.</paso>
+            </instrucciones>
+        </ejercicio>
+    </grupo>
+    <grupo>
+        <nombre>Bíceps</nombre>
+        <ejercicio>
+            <nombre>Curl con barra</nombre>
+            <instrucciones>
+                <paso>Párate frente a una barra Z con agarre supino y separa los pies al ancho de los hombros.</paso>
+                <paso>Agarra la barra con las manos en posición supina a la altura de tus hombros, manteniendo las muñecas rectas.</paso>
+                <paso>Levanta la barra hacia arriba, manteniendo los codos pegados al cuerpo.</paso>
+                <paso>Lentamente baja la barra hasta estirar el bíceps y vuelve a contraer. Repite el movimiento durante el número deseado de repeticiones.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Curl con mancuerna inclinado</nombre>
+            <instrucciones>
+                <paso>Deja los brazos en esta posición con relación a tu tronco, y sin modificarla, dobla tu peso hacia adelante, a la vez que aspiras aire e intentas de contraer la región de los bíceps. Cabe señalar que sólo los antebrazos van a presentar movimiento.</paso>
+                <paso>Continua hasta que sus bíceps se encuentren en el punto máximo de contracción; esto debería ser cuando las mancuernas se encuentren cerca de los hombros.</paso>
+                <paso>Mantén esta posición de contracción por al menos un segundo, para después, en un movimiento controlado y exhalando aire, regresar a la posición con la que comenzamos.</paso>
+                <paso>Repite el movimiento cuantas veces lo tengas planificado en tu rutina.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Curl de muñecas con barra</nombre>
+            <instrucciones>
+                <paso>Siéntate en un banco con los pies apoyados en el suelo y la espalda recta. Sostén una barra con las palmas hacia arriba y los brazos extendidos frente a ti, paralelos al suelo.</paso>
+                <paso>Mantén los brazos inmóviles, flexiona las muñecas y levanta la barra hacia arriba. Exhala mientras haces este movimiento y mantén la posición de las muñecas en línea recta con los antebrazos.</paso>
+                <paso>Mantén la contracción en la parte superior del movimiento durante un segundo y luego lentamente baja labarra a la posición inicial, inhalando durante el movimiento descendente.</paso>
+                <paso>Realiza el número deseado de repeticiones.</paso>
+            </instrucciones>
+        </ejercicio>
+    </grupo>
+    <grupo>
+        <nombre>Pierna</nombre>
+        <ejercicio>
+            <nombre>Sentadilla con barra</nombre>
+            <instrucciones>
+                <paso>Comienza de pie, con los pies ligeramente separados y la barra colocada en la parte superior de los hombros.</paso>
+                <paso>Desciende lentamente hacia abajo, manteniendo la espalda recta y el pecho hacia arriba, hasta que tus muslos estén paralelos al suelo.</paso>
+                <paso>Empuja hacia arriba a través de los talones y vuelve a la posición inicial.</paso>
+                <paso>Repite el movimiento de forma controlada durante varias repeticiones.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Caminata en estocada</nombre>
+            <instrucciones>
+                <paso>Colócate de pie con los pies separados al ancho de los hombros y las manos a los lados del cuerpo.</paso>
+                <paso>Da un gran paso hacia atrás con el pie derecho, manteniendo el talón derecho levantado del suelo y el peso en el pie izquierdo.</paso>
+                <paso>Dobla la rodilla izquierda, manteniendo la rodilla derecha cerca del suelo y los dedos del pie derecho apuntando hacia abajo.</paso>
+                <paso>Empuja hacia arriba con el pie derecho y vuelve a la posición inicial. Repite el movimiento con el otro pie.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Peso muerto</nombre>
+            <instrucciones>
+                <paso>Tras respirar de manera profunda, párate y tira de la barra hacia la parte delantera de tus piernas, conduciendo con tus piernas.</paso>
+                <paso>En la parte superior del movimiento, aprieta los glúteos, tira de los hombros hacia atrás y exhala.</paso>
+                <paso>Para retornar la barra al piso, empuje el trasero hacia atrás, flexione las caderas y baje la barra por la parte delantera de las piernas, sosteniendo la espalda recta.</paso>
+                <paso>En el momento en que la barra pase las rodillas, dobla las rodillas y baja la barra al suelo.</paso>
+                <paso>Repite el movimiento de acuerdo a tu rutina de entrenamiento.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Sentadilla búlgara</nombre>
+            <instrucciones>
+                <paso>Empieza de pie, con una mancuerna en cada mano, y da un paso hacia adelante con tu pie derecho, colocando la punta del pie sobre un banco o una caja.</paso>
+                <paso>Mantén la espalda recta y baja el cuerpo hasta que la rodilla derecha forme un ángulo de 90 grados. La rodilla izquierda debe estar cerca del suelo.</paso>
+                <paso>Mantén la posición durante unos segundos, luego levanta el cuerpo de nuevo a la posición inicial.</paso>
+                <paso>Realiza la misma serie de repeticiones con la otra pierna.</paso>
+            </instrucciones>
+        </ejercicio>
+        <ejercicio>
+            <nombre>Elevación de talones</nombre>
+            <instrucciones>
+                <paso>Coloca una barra cargada en la parte posterior de tus hombros, sosteniéndola con los brazos detrás de ti.</paso>
+                <paso>Levanta los talones del suelo y mantén tu equilibrio mientras mantienes la barra en su lugar.</paso>
+                <paso>Baja lentamente los talones hacia el suelo y repite el movimiento.</paso>
+                <paso>Realiza 3 series de 12-15 repeticiones.</paso>
+            </instrucciones>
+        </ejercicio>
+    </grupo>
+</ejercicios>

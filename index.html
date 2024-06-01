@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" href="images/icon.jpg">
+    <title>PersonalTrainer</title>
+</head>
+<body>
+    <div>
+        <!-- Navbar -->
+        <div class="w3-top w3-text-white w3-black">
+            <div class="w3-bar  ">
+              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="index.html" class="w3-bar-item w3-button w3-padding-large">INICIO</a>
+              <a href="yo.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE MÍ</a>
+              <a href="menuRutinas.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RUTINAS</a>
+              <a href="dietas.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DIETAS</a>
+              <a href="ejercicios.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EJERCICIOS</a>
+            </div>
+          </div>
+  
+          <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+          <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+            <a href="yo.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE MÍ</a>
+            <a href="menuRutinas.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RUTINAS</a>
+            <a href="dietas.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DIETAS</a>
+            <a href="ejercicios.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EJERCICIOS</a>
+          </div>
+    </div>
+    <section id="inicio">
+        <div class="hero">
+         <div class="hero-text">
+          <h1>Descubre tu potencial ilimitado<br>
+             Tu cuerpo, tu poder.</h1>      
+         </div>
+        
+        </div>
+    </section>
+    <main>
+      <div class="contact" id="join">
+        <h2 class="title"> Contacta conmigo</h2>
+        <div class="contact-main">
+
+          <div class="contact-form">
+            <form action="https://formspree.io/f/mrgnwepd" method="post" autocomplete="off">
+              <div class="name"> 
+                <input  class="input name-list" type="text" name="name" placeholder="Nombre*">
+                <input  class="input name-list" type="text" name="apellidos" placeholder="Apellidos*">
+              </div>
+              <input id="email" class="input"  type="text" name="email" placeholder="Email*">
+              <textarea  id="email" class="input"   name="message" placeholder="Tu mensaje*" required></textarea>
+              <input type="submit" name="enviar" value="enviar mensaje" class="btn-enviar">
+             <!-- <button class="w3-btn w3-red w3-round">Send</button> -->
+            </form>
+            </div>
+  
+          
+          <div class="contact-image">
+            <img src="images/contacto.jpg" alt="imagen de contacto"/>
+  
+          </div>
+        </div>
+      </div>
+      <div class="contact-address" id="contact">
+        <h2 class="title"> Datos de contacto</h2>
+        <div class="contact-address-list">
+          <div class="contact-list">
+            <h4>Dirección</h4>
+            <p>Av. de França</p>
+            <p>62, Camins al Grau,</p>
+            <p> 46023 València</p>
+          
+          </div>
+          <div class="contact-list">
+             <h4>Horario</h4>
+             <p>Lunes- Sábado: 8am -8:30pm</p>
+             <p>Domingo:8am- 8pm</p>
+       
+          </div>
+          <div class="contact-list">
+            <h4>Llámame</h4>
+            <p> <i class="fa fa-phone " style="margin-right: 8px;font-size: 20px;"></i> 722-717-199</p>
+            <p><i class="fa fa-envelope " style=" margin-right: 5px;font-size: 20px;"></i>semarsa13@gmail.com</p>
+             
+        </div>
+
+        </div>
+
+      </div>
+
+    
+    </main>
+       <script>
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+</body>
+</html>
